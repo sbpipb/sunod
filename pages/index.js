@@ -21,7 +21,7 @@ export default function Index() {
 
   return (
     <main className="center">
-      <div className="quote">{quote}</div>
+      <div className="quote">Sabi nila. `{quote}`</div>
       {author && <span className="author">- {author}</span>}
 
       <style jsx>{`
